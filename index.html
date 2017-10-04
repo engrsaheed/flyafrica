@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="assets/js/app.js"></script>
+	<title>Fly Africa | Home</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+<body>
+<div class="wrapper">
+	<div class="screen_1">
+		<div class="screen_container">
+			<div class="logo">
+				<p class="logo_text">Fly.Africa</p>
+			</div>
+			<div class="tab_container">
+				<button class="tablinks" onclick="openForm(event, 'round_trip')">Round Trip</button>
+  				<button class="tablinks" onclick="openForm(event, 'one_way')">One Way</button>
+			</div>
+			
+			<div id="round_trip" class="tabcontent">
+				<form class ="form_grid">
+					<div class="form_group">
+                    	<label for="from">From</label>
+						<input class="input tab_from" type="text" name="adult" id="adult">
+                	</div>
+                	<div class="form_group">
+                    	<label for="to">To</label>
+						<input class="input tab_adult" type="text" name="adult" id="adult">
+                	</div>
+					<div class="form_group">
+    					<i class="fa fa-calendar fa-2x  " aria-hidden="true"></i>
+                		<input class="input tab_arrive_date" name="arriveDate" type="date" id="arriveDate">
+					</div>
+					<div class="form_group">
+						<i class="fa fa-calendar fa-2x  " aria-hidden="true"></i>
+                		<input class="input tab_depart_date" name="arriveDate" type="date" id="departDate">
+					</div>
+					<div class="form_group">
+                    	<label for="adult">Adult</label>
+						<input class="input tab_adult" type="number" name="adult" id="adult">
+                	</div>
+                	<div class="form_group">
+                    	<label for="children">Children</label>
+						<input class="input tab_children" type="number" name="children" id="children">
+                	</div>
+                	<div class="form_group">
+                    	<label for="infant">Infant</label>
+						<input class="input tab_infant" type="number" name="infant" id="infant">
+                	</div>
+                	<button class="btn tab_button" type="submit">Search Flights</button>
+            	</form>
+			</div>
+
+			<div id="one_way" class="tabcontent">
+				<form class ="form_grid">
+					<div class="form_group">
+                    	<label for="from">From</label>
+						<input class="input tab_from" type="text" name="adult" id="adult">
+                	</div>
+                	<div class="form_group">
+                    	<label for="to">To</label>
+						<input class="input tab_adult" type="text" name="adult" id="adult">
+                	</div>
+					<div class="form_group">
+    					<i class="fa fa-calendar fa-2x  " aria-hidden="true"></i>
+                		<input class="input tab_arrive_date" name="arriveDate" type="date" id="arriveDate">
+					</div>
+					<div>
+						
+					</div>
+					<div class="form_group">
+                    	<label for="adult">Adult</label>
+						<input class="input tab_adult" type="number" name="adult" id="adult">
+                	</div>
+                	<div class="form_group">
+                    	<label for="children">Children</label>
+						<input class="input tab_children" type="number" name="children" id="children">
+                	</div>
+                	<div class="form_group">
+                    	<label for="infant">Infant</label>
+						<input class="input tab_infant" type="number" name="infant" id="infant">
+                	</div>
+                	<button class="btn tab_button" type="submit">Search Flights</button>
+            	</form>
+			</div>
+		</div>
+	</div>
+	<div class="screen_2">
+		<div class="screen_view_1">
+			<h2>Affordable Flights to Anywhere<br> in the World</h2>
+			<div class="table">
+				<ul class="home_button">
+    				<li class="btn">Learn More</li>
+    				<li class="btn">Explore Options</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
